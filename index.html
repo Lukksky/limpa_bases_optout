@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limpa base opt-out</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+   <header>
+    <h1>Limpa base opt-out</h1>
+</header>
+    <section>
+        <div>
+            Insira abaixo o CSV de disparo:
+            <p>
+                <input type="file" name="txtcsvdisparo" id="txtcsvdisparo">
+            </p>
+
+            <div>
+                Insira abaixo o CSV de opt-out:
+                <p>
+                    <input type="file" name="txtcsvoptout" id="txtcsvoptout">
+                </p>
+            <input type="button" value="Enviar" onclick="enviar()">
+        </div>
+
+        <p>
+            <div id="res"></div>
+        </p>
+    </section>
+    <footer>
+        <p>&copy; Lucas em ação</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
