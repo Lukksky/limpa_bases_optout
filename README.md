@@ -1,5 +1,7 @@
 # limpa_bases_optout
 
+Teste grátis - https://bit.ly/3UX8E4x
+
 A ideia deste projeto é facilitar a limpeza da base de usuários vindos de relatórios de opt-out. Por exmeplo, se através de campanhas você criar um registro de eventos salvando os dados do telefone dos usuários, será possível gerar um csv, este será de opt-out. Sempre que for realizar um novo disparo, poderá fazer um check na base de disparo atual cruzando os dados com o relatório de opt-out:
 
 Veja:
